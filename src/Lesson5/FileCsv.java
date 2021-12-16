@@ -5,7 +5,7 @@ import java.io.*;
 public class FileCsv {
 
     public static void main(String args[]){
-        try ( PrintWriter writer = new PrintWriter(new File("src/test.csv"))) {
+        try ( PrintWriter writer = new PrintWriter(new File("src/Lesson5/test.csv"))) {
 
             StringBuilder sb = new StringBuilder();
             sb.append("Компаньо");
